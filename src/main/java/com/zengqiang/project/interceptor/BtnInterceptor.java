@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @FileName: <p>BtnInterceptor</p>
- * @Description:
+ * @Description: 按钮角色权限拦截器
  * @Author SuperBoy
  * @Date 2017/10/9
  * ============================
@@ -30,7 +30,8 @@ public class BtnInterceptor extends HandlerInterceptorAdapter {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 		String str = request.getRequestURI();
-		String method1 = request.getParameter("method");
+		String method = request.getParameter("method");
+
 		return super.preHandle(request, response, handler);
 	}
 
