@@ -12,7 +12,7 @@
   <name>hbase demo</name>
 
   <properties>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <slf4j.version>1.7.7</slf4j.version>
     <log4j.version>1.2.17</log4j.version>
     <quartz.version>2.3.0</quartz.version>
