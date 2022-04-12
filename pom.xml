@@ -19,7 +19,7 @@
     <spring.version>4.3.14.RELEASE</spring.version>
     <spring-batch.version>3.0.7.RELEASE</spring-batch.version>
     <spring-hadoop.version>2.5.0.RELEASE</spring-hadoop.version>
-    <hadoop.version>2.7.6</hadoop.version>
+    <hadoop.version>3.2.3</hadoop.version>
     <hbase.version>1.4.5</hbase.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
